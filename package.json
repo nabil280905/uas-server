@@ -1,7 +1,13 @@
 {
-  "name": "json-server-vercel",
+  "name": "json-server-railway",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "json-server": "^0.17.3"
   }

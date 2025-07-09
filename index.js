@@ -6,10 +6,14 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const server = jsonServer.create()
-const router = jsonServer.router(path.join(__dirname, '..', 'db.json'))
+const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
+
+const PORT = process.env.PORT || 3000
 
 server.use(middlewares)
 server.use(router)
 
-export default server
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`✅ JSON Server running at http://localhost:${PORT}`)
+})

@@ -69,6 +69,56 @@
       "total": 50000,
       "waktu": "2025-07-07T10:30:00.000Z",
       "selesai": true
+    },
+    {
+      "id": "1751929925005",
+      "pelanggan": "rama",
+      "kendaraan": "Mobil",
+      "items": [
+        {
+          "id": 101,
+          "nama": "Cuci Mobil Biasa",
+          "harga": 50000,
+          "jumlah": 1
+        },
+        {
+          "id": 301,
+          "nama": "Interior Cleaning",
+          "harga": 120000,
+          "jumlah": 1
+        }
+      ],
+      "total": 170000,
+      "waktu": "2025-07-07T23:12:05.005Z",
+      "selesai": true
+    },
+    {
+      "id": "1751930676724",
+      "pelanggan": "qadri",
+      "kendaraan": "Mobil",
+      "items": [
+        {
+          "id": 101,
+          "nama": "Cuci Mobil Biasa",
+          "harga": 50000,
+          "jumlah": 1
+        },
+        {
+          "id": 103,
+          "nama": "Cuci Mobil Detailing",
+          "harga": 150000,
+          "jumlah": 1
+        },
+        {
+          "id": 302,
+          "nama": "Fogging + AC",
+          "harga": 100000,
+          "jumlah": 1
+        }
+      ],
+      "total": 300000,
+      "waktu": "2025-07-07T23:24:36.724Z",
+      "selesai": false
     }
   ]
 }

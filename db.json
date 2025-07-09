@@ -1,0 +1,40 @@
+{
+  "buku": [
+    {
+      "judul": "Laskar Pelangi",
+      "penulis": "Andrea Hirata",
+      "tahun": 2005,
+      "penerbit": "Bentang Pustaka",
+      "kategori": "Fiksi",
+      "stok": 10,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "judul": "Atomic Habits",
+      "penulis": "James Clear",
+      "tahun": 2018,
+      "penerbit": "Penguin Random House",
+      "kategori": "Pengembangan Diri",
+      "stok": 3
+    },
+    {
+      "id": "3",
+      "judul": "Rich Dad Poor Dad",
+      "penulis": "Robert T. Kiyosaki",
+      "tahun": 1997,
+      "penerbit": "Plata Publishing",
+      "kategori": "Finansial",
+      "stok": 4
+    },
+    {
+      "id": "4",
+      "judul": "Filosofi Teras",
+      "penulis": "Henry Manampiring",
+      "tahun": 2018,
+      "penerbit": "Kompas",
+      "kategori": "Filsafat",
+      "stok": 2
+    }
+  ]
+}
